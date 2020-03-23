@@ -4,7 +4,7 @@
 En este documento solo encontrará ciertas caracteristicas de C#, las cuales no son comunes en encontrar, u ciertos pequeños pedazos de código que eh podido realizar en el transcurso de mi proceso de aprendizaje
 
 
-
+# Tipo de Datos
 ## Inicializar Array 
 ### Tipo de datos - Bytes
 ````csharp
@@ -25,7 +25,19 @@ string hex = BitConverter.ToString(data);
 textBox1.Text = hex;
 ````
 
-##
+# Consola 
+### Centrar Texto 
+````Csharp
+// Horizontal
+int x = 45;
+// Vertical
+int y = 10;
+
+Console.SetCursorPosition(posX, posY);
+
+Console.WriteLine("Este Texto se Centrará");
+````
+
 ##
 ##
 ##
